@@ -7,6 +7,7 @@ Here, we implement a basic 3D U-Net model for the semantic segmentation task. As
 The model is implemented using PyTorch. The loss is calculated using Binary Cross Entropy loss and minimised through the Stochastic Gradient Descent optimiser with a learning rate of 0.002 (parameters from Franco-Barranco et al. 3).  The model is trained only for 10 epochs due to computational constraints. The test dataset achieves an average accuracy of 0.9475 with an average intersection over union (IoU) of 0.5045. 
 
 <img width="429" alt="Screenshot 2025-04-17 at 8 31 42 PM" src="https://github.com/user-attachments/assets/8e49fca2-1bc2-4397-a75e-c17379ac5535" />
+<img width="487" alt="Screenshot 2025-04-17 at 8 32 47 PM" src="https://github.com/user-attachments/assets/1bf5a79b-5d99-49ac-97f4-26329068e284" />
 
 ### References
 
